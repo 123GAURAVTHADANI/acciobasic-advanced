@@ -56,5 +56,22 @@
 
 // // console.log(flightData["staffDetails"].captainName.firstName);
 
-var input_array = [1, 2, 3, 4];
-console.log(typeof input_array);
+// var person = [{ name: "Gaurav", age: 20 }, 20, "Minesh"];
+// // negative index
+// console.log(person[2]);
+
+const pi = 3.141;
+// re - assignment / re declare of primitive values in const type of variables are not allowed
+// abc = "AccioJobs";
+console.log(pi);
+
+// re - assignment / re -declaration of primitives values in var type of variables are possible
+var abc = 10;
+abc = "100";
+console.log(typeof abc);
+
+// re assign i let is possible
+// re declaration is not possible
+// let newVariable = 10;
+// let newVariable = 100;
+// console.log(newVariable);
