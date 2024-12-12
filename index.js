@@ -60,15 +60,14 @@
 // // negative index
 // console.log(person[2]);
 
-const pi = 3.141;
+// const pi = 3.141;
 // re - assignment / re declare of primitive values in const type of variables are not allowed
 // abc = "AccioJobs";
-console.log(pi);
+// console.log(pi);
 
 // re - assignment / re -declaration of primitives values in var type of variables are possible
 var abc = 10;
-abc = "100";
-console.log(typeof abc);
+console.log(abc);
 
 // re assign i let is possible
 // re declaration is not possible
