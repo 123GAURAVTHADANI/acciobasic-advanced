@@ -1,47 +1,59 @@
-// let array = ["abc", "zef", "csa", "dee"];
-// console.log("sorting>>>", array.sort());
+// let input_string = "I am from AccioJobs";
+// // // console.log(input_string.concat(" AccioJobs", " Kumar"));
+// // // console.log(input_string);
 
-// console.log(array);
+// // let output = input_string.replace("I", "We").replace("am", "kkk");
+// // console.log(output);
+// // console.log(input_string);
+// let input_array = ["I", "AM", "FROM", "ACCIO"];
+// // for (let i = 0; i < input_string.length; i = i + 1) {
+// //   console.log(input_string.at(i));
+// // }
 
-// console.log("convert to a string >>>", typeof array.join(""));
+// let string = "";
+// for (let x of input_string) {
+//   string += x;
+// }
+// console.log(string);
 
-// 0 , 1 ,2 ,3
+// Object Methods
 
-// (startIndex, endIndex - 1)
-// returns a new array , makes the changes in the currrent array ?
-// let result = array.slice(0, 3);
-// console.log(result);
-// console.log("original>>", array);
-// console.log(array);
+// 1 . Object.assign()
+// 2. List of Object Values
+//3. List of Object Key
+// console.log(Object.values(user));
 
-// console.log(array.length);
-// array.push(17);
-// console.log(array);
-// array.pop();
-// console.log(array);
-// array.unshift(14);
-// console.log(array);
-// array.shift();
-// console.log(array);
+// console.log(Object.keys(user));
 
-// splice can remove the element at a specific index and can delete multiple elements at one time
+// let clonedUser = Object.assign({}, user);
+// console.log(clonedUser);
 
-// in-place
-// array.splice(1, 2, 100);
-// console.log(array);
+// console.log(user.hasOwnProperty("details"));
 
-// let sample_string = "1";
-//  - , *, / expected a number (Not a number NaN)
-// console.log(5 / "abc");
-// let x = {};
-// console.log(x == x);
+// deep copy -
+// 1. object to string - JSON.stringify()
+// 2. string to an object - JSON.parse()
 
-let input_string = "Accio Jobs";
-// Acci
-// console.log(input_string.slice(0, 4));
-// console.log(input_string.at(-10));
-// console.log(input_string.length);
-// console.log(input_string.at(-5));
+// let deepCopy = JSON.parse(JSON.stringify(user));
+// deepCopy.details.address1 = "India";
+// console.log(deepCopy);
+// console.log(user);
 
-// console.log(input_string.substr(0, 5));
-console.log(input_string.slice(-4));
+// console.log(JSON.parse(JSON.stringify(user)));
+
+// let deepCopy =
+// console.log(deepCopy);
+
+// let cloneObj = { ...user };
+// cloneObj.age = 30;
+// cloneObj.details.address1 = "India";
+// console.log(cloneObj);
+// console.log(user);
+
+// shallow copy and deep copy
+// let input_array = [1, 2, 3];
+// Spread opeartor in ES6 (ECMA Script) 2015 ??
+
+// let clonedUser = { ...user, course: "FSD" };
+// let clonedArray = [...input_array, 10, 109];
+// console.log(clonedArray);
