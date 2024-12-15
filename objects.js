@@ -1,24 +1,20 @@
-let user = {
-  name: "Gaurav",
-  age: 29,
-  password: "123",
-  details: {
-    address1: "UP",
-  },
-};
-Object.defineProperty(user, "password", {
-  writable: false,
-  configurable: false,
-});
+// let user = {
+//   name: "Minesh",
+//   age: 20,
+// };
+// let array = [1, 2, 3];
+// let string = "String";
 
-delete user.password;
-console.log(user);
+// // objects, string, arrays
+// for (let x in string) {
+//   // x is representing key
+//   // String Template (ES6 ECMA 2015)
+//   // console.log(`I am the key ${x}:${user[x]} is the value`);
+//   console.log(string[x]);
+// }
+// let name = "Vaishnavi";
+// // STring Templating
+// console.log(`Hi my name is ${name}`);
 
-// Object.freeze(user);
-// delete user.age;
-// console.log(user);
-
-// 4. Object.entries
-// 5. Object.freeze
-// 6. Object.create
-// 7. Object.seal
+// // `${name}`
+// // print(f"Hello my name is {variable}")
