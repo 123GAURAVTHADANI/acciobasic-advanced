@@ -1,52 +1,37 @@
-// What are special Higher order function in js (HOF)
-// what are functions in js
-
-// regular function
-
-// function sayHello() {
-//   console.log("hello!!!");
+// Few Other methods of arrays ( DOM Manipulation)
+// let array = [1, 2, 3, 4];
+// let input_array = ["Accio", "Jobs"];
+// function double(element) {
+//   return element * 2;
 // }
-
-// sayHello();
-// undefined
-
-// let a;
-// console.log(a);
-
-// arrow function (Es6 feature ECMA 2015)
-
-// var sayHi = () => {
-//   console.log("I am from accio!!");
-// };
-// sayHi();
-// Hoisting is variables or functions
-
-// Higher Order function
-
-// function sayHello(parameter1, parameter2) {
-//   if (parameter2 % 2 === 0) {
-//     return parameter1 + parameter2;
-//   } else {
-//     return sayHello(parameter1, parameter2 - 1);
-//   }
-// }
-// console.log(sayHello(1, 11));
-
-// opearators in js
-
-// relational opeartors ( > , < , >= , <= )
-// assignment
-// arthmic
-// arthmetic assignemnt
-// bitwise
-// logical opeartion
-// unary opeartor
-
-// let x = 59;
-// let y = "5";
-// == checks the value
-// console.log(x != y);
-// types and value
-
-// let result = x >= 18 ? "I am eligible" : "You are not eligible";
+// Higher order function has definition
+// const result = array.map(double);
 // console.log(result);
+// filter ??
+
+// function filterOut(item) {
+//   return item.age >= 21;
+// }
+
+// let array = [
+//   { name: "Anbu", age: 25 },
+//   { name: "gaurav", age: 20 },
+//   { name: "Accio", age: 10 },
+// ];
+// console.log(array.sort((a, b) => a.age - b.age));
+// console.log(array.reverse());
+
+// Higher order; callbacks
+// let result = array.filter(filterOut);
+// console.log(result);
+
+// let array = ["I", "am", "from", "India"];
+// let array2 = [9, 8, 7];
+// // let sum =0
+// // sum +=array[i] ; sum = sum +array[i]
+// function handleSum(sum, item) {
+//   return sum + item;
+// }
+// console.log(array.reduce((acc, element) => acc.concat(element), ""));
+
+// console.log(array2.reduce((acc, item) => acc - item, 0));
