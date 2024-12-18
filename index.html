@@ -7,10 +7,43 @@
     <link href="./index.css" rel="stylesheet" />
   </head>
   <body>
-    Hello World!!
-    <h1 id="h1">Hello!!</h1>
-    <div id="divContainer"></div>
-    <!-- script tag good practice to put inside the body -->
-    <script src="./fetch.js" defer />
+    <!-- <p id="para">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
+      repudiandae ullam voluptatum, est, aliquam doloribus sequi nobis animi
+      consequuntur esse quam, illum dignissimos autem! Sint nulla sapiente rem
+      delectus consectetur. Placeat nobis a, delectus architecto, aliquid omnis
+      optio, animi reprehenderit iure libero facilis. Quibusdam doloribus
+      recusandae nisi, omnis atque earum aperiam eligendi maxime hic accusamus
+      autem vitae libero voluptatum accusantium.
+    </p>
+    <div
+      id="container"
+      class="display-none"
+      style="background-color: blueviolet"
+    >
+      Accio Jobs
+    </div> -->
+    <!-- <button id="btn">Toggle</button> -->
+    <form id="form">
+      <label id="labelusername">Username</label>
+      <input
+        autocomplete="off"
+        type="text"
+        placeholder="Username"
+        id="username"
+      />
+      <br />
+      <label>Password</label>
+      <input
+        type="password"
+        placeholder="Password"
+        autocomplete="off"
+        id="password"
+      />
+      <button id="submit" type="submit">Submit</button>
+    </form>
+
+    <div id="container"></div>
+    <script src="./form.js" defer />
   </body>
 </html>
