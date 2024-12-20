@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./todo.css" rel="stylesheet" />
+  </head>
+  <body>
+    <form id="formId">
+      <input id="inputTypeText" type="text" placeholder="Todo!!!" />
+      <select id="inputTypeSelect">
+        <option value="inprogress">IN-PROGRESS</option>
+        <option value="pending">PENDING</option>
+        <option value="completed">COMPLETED</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="container">
+      <div id="inprogress" class="box">
+        <h2>In-Progress</h2>
+      </div>
+      <div id="pending" class="box">
+        <h2>Pending</h2>
+      </div>
+      <div id="completed" class="box">
+        <h2>Completed</h2>
+      </div>
+    </div>
+    <script src="./todo.js" defer />
+  </body>
+</html>
