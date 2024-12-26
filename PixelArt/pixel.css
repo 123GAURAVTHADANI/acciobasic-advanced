@@ -1,0 +1,19 @@
+#grid {
+  display: grid;
+  border: 1px solid black;
+}
+.grid-item {
+  height: 20px;
+  width: 100%;
+  border: 1px solid black;
+}
+#box {
+  background-color: antiquewhite;
+  height: 200px;
+  width: 200px;
+}
+#box-2 {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
